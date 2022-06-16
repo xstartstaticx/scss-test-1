@@ -1,0 +1,11 @@
+@use "../abstract/variables" as v;
+
+body {
+  background-color: v.$secondary-clr;
+  h1 {
+    color: v.$third-clr;
+  }
+  p {
+    color: v.$primary-clr;
+  }
+}
